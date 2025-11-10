@@ -1,0 +1,4 @@
+torch==2.9.0
+torchvision==0.24.0
+timm==1.0.22
+tensorboard==2.20.0
