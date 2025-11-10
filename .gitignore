@@ -1,0 +1,223 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
+# PyCharm/IntelliJ
+.idea/
+.vscode/
+
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+.env.*.local
+.env.local
+.env.production
+
+# virtualenv / venv
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage/*
+test_results/
+
+# Profiling / temp
+.prof
+.prof.*
+
+# Sphinx build
+docs/_build/
+
+# pytype
+.pytype/
+
+# mypy
+.mypy_cache/
+
+# Cython debug symbols
+cython_debug/
+
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+jupyter_notebook_config.py
+*.nbconvert.ipynb
+
+# Jupyter runtime
+jupyter_runtime/
+jupyter_server_config.py
+
+# Common model checkpoints and saved weights
+*.pt
+*.pth
+*.ckpt
+*.ckpt.*
+*.model
+*.bin
+*.weights
+saved_models/
+checkpoints/
+checkpoints_*/
+model_weights/
+weights/
+*.h5
+*.hdf5
+
+# Hugging Face cache
+cache/
+.huggingface/
+
+# Datasets & large data files
+Longitudinal_Nutrient_Deficiency/
+data/
+datasets/
+raw_data/
+processed_data/
+*.csv
+*.tsv
+*.parquet
+*.npy
+*.npz
+*.hdf
+
+# TensorBoard / TensorFlow logs
+runs/
+logs/
+tb_logs/
+events.out.tfevents.*
+tensorboard_data/
+summaries/
+profile_dir/
+*.tfevents.*
+
+# PyTorch Lightning default checkpoints
+lightning_logs/
+
+# MLflow
+mlruns/
+
+# Weights & outputs
+outputs/
+predictions/
+results/
+experiments/
+experiment_results/
+
+*.cache
+*.pkl
+*.joblib
+
+# Conda
+.conda/
+envs/
+*.conda
+
+# Pipenv
+Pipfile.lock
+Pipfile
+
+# Poetry
+.poetry/
+poetry.lock
+
+# virtualenvwrapper
+.python_env/
+
+# Docker
+docker-compose.override.yml
+.env.docker
+
+# Build artifacts from C/C++ extensions
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+
+*.log
+debug.log
+*.out
+*.err
+
+# Private keys, credentials, tokens
+*.pem
+*.key
+secrets/
+credentials/
+**/credentials/
+aws_credentials
+gcloud_key.json
+
+# IntelliJ project files (if using other JetBrains IDEs)
+*.iml
+*.ipr
+*.iws
+
+# Rope (python refactor tool)
+.ropeproject
+
+node_modules/
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
