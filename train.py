@@ -240,7 +240,7 @@ def train_one_epoch(
 
         optimizer.zero_grad()
 
-        with torch.amp.autocast("cuda"):
+        with torch.amp.autocast(device.type):
             logits = model(img1, img2, img3)
 
             eps = 1e-6
@@ -327,7 +327,7 @@ def validate(
             mask = batch["mask"].to(device)
             region = batch["region_mask"].to(device)
 
-            with torch.amp.autocast("cuda"):
+            with torch.amp.autocast(device.type):
                 logits = model(img1, img2, img3)
 
                 N = mask.shape[0]
